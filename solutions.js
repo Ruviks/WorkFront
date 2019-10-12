@@ -17,7 +17,7 @@ else console.log("odd")
 function two(x,y)
 {
 if(x>y && x%y==0)console.log("1")
-else if(x<y && y%x==0)console.log("1")
+else if( y%x==0)console.log("1")
 else console.log("0")
 }
 function three(x)
