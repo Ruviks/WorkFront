@@ -3,7 +3,7 @@ function getlength(number) {
     return number.toString().length;
 }
 function getnumber(x)
-{    let k=10;
+{     k=10;
     for(i=2;i<=x;i++)
     {k=k*10;}
     return k;
@@ -28,7 +28,7 @@ function three(x)
 }
 function four(x)
 {  
-     let  a=x%10;
+        a=x%10;
        if(a==0)return;
        console.log(String(a)+Math.floor(x/10));
 }
@@ -64,7 +64,7 @@ function six(a,b,c)
 }
 function seven(a,b,c)
 {
-    let i=0;
+     i=0;
     if(a==0 || b==0 || c==0)
     {
         console.log("undefined");
@@ -85,8 +85,8 @@ function eight(a,b,c)
     else
     {  if(b*b-4*a*c>=0)
         {
-       let x=(-b+Math.sqrt(b*b-4*a*c))/2*a;
-       let y=(-b-Math.sqrt(b*b-4*a*c))/2*a;
+        x=(-b+Math.sqrt(b*b-4*a*c))/2*a;
+        y=(-b-Math.sqrt(b*b-4*a*c))/2*a;
         if(x=y) console.log("Solution is "+x);
         else console.log("The solutions are "+x+" and "+y);
         }
@@ -127,10 +127,7 @@ function eleven(x)
           
         else
         {
-  let  s="";
-   let length=getlength(x);
- let    a=x;
-  let    b=x;
+    s="", length=getlength(x),a=x,b=x;
     a=Math.floor(a/getnumber(length-1));
     s+=a;
     for(i=0;i<=length-3;i++)
