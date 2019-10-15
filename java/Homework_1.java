@@ -105,11 +105,12 @@ void eight(int a,int b,int c)
     }
 
 }
+
 void nine()
 {
     var n =System.in.read();
-    var i=0;
-    var j=0;
+    int i=0;
+    int j=0;
     if(n%2==0 && !Math.floor(n/10))i+=1;
     if(n%3==0 && n%10==1)j+=1;
     
