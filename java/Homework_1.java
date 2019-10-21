@@ -1,11 +1,12 @@
 class solutions
 {
-   public static void main(String[] args)
+ /*  public static void main(String[] args)
     {
        //test any function here
         solutions solutions = new solutions();
         
     }
+    */
 //helper functions
     void print(int a,int b,int c) {System.out.println(a+","+b+","+c);}
 int getlength(int number) {
