@@ -10,7 +10,7 @@ class solutions
 //helper functions
     void print(int a,int b,int c) {System.out.println(a+","+b+","+c);}
 int getlength(int number) {
-    return  String.valueOf(number).length;
+    return  String.valueOf(number).length();
 }
 int getnumber(int x)
 {   int  k=10;
