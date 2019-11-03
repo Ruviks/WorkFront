@@ -50,21 +50,14 @@ else
 }   
 }
 function four(arr) {
-   x=arr.pop();
-   
-    if (arr.length == 0  ) {
-        if(x>=0)
-        {
+    x=arr.pop();
+     if (arr.length == 0  ) {
+        if(x>=0)        
         return x;
-        }
         else return Infinity;
     }
- 
-
     if(x<0) return four(arr);
-    
     return Math.min(x, four(arr));
-    
 }
 function five(arr) {
     for (let i = 0; i < arr.length; i++) {
@@ -72,3 +65,4 @@ function five(arr) {
     }
     return -1;
 }
+

@@ -8,7 +8,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\js\\HomeWork_4.js"
+            "program": "${workspaceFolder}\\js\\HomeWork_3.js",
+            "console": "externalTerminal"
         }
     ]
 }
