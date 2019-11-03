@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "WorkFront_3cf1f86",
+            "console": "externalTerminal"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
