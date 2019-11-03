@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "TowerOfHanoi",
+            "projectName": "WorkFront_3cf1f86",
+        
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Palindrome",
             "request": "launch",
             "mainClass": "Palindrome",
