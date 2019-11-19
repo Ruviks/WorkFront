@@ -26,14 +26,11 @@ function flatten (arr) {
 }
 function three(n)
 {
-  
-if(n<10)
+if(n<=10)
   {if(n==10)return 1;
     else return n;
   }
   else return three(sum(n));
-
-  
 }
 function four(arr,n)
 {  if(n==0) return arr;
@@ -85,4 +82,4 @@ arr=[
   { book: "White Nights", readStatus: false, percent: 60 } ,
   { book: "After Dark", readStatus: true, percent: 70 }
   ];
-  console.log(sort(arr))
+  console.log(three(10))
