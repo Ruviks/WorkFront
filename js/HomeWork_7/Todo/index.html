@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>To Do List</p>
+        <input type="text"  id="123">
+        <input type="button" value="Add" onclick="Add()">
+        <div style="width: auto;height: auto;" id="root">Check</div>
+    </body>
+    <script>
+    function Add()
+    {  
+       var p =document.createElement("div");
+       p.onclick=()=>p.remove();
+       var input =document.getElementById("123");
+       var textnode = document.createTextNode(input.value);
+       p.appendChild(textnode);
+       document.getElementById("root").appendChild(p);
+       input.value="";
+    }
+
+    </script>
+</html>
