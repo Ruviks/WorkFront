@@ -24,7 +24,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\js\\Test.js",
+            "program": "${workspaceFolder}\\js\\HomeWork_8.js",
             "console": "externalTerminal"
         }
     ]

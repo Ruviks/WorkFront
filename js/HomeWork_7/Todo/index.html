@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
+    <style>
+      
+      .inner:hover{
+        background-color: red!important;
+    }  
+    </style>
+    
     <body>
         <p>To Do List</p>
         <input type="text"  id="123">
         <input type="button" value="Add" onclick="Add()">
-        <div style="width: auto;height: auto;" id="root">Grdon Solutions</div>
+        <div style="width: auto;height: auto;" id="root" >Hello</div>
     </body>
     <script>
     function Add()
     {  
        var p =document.createElement("div");
+       p.className ="inner";
+       p.style.backgroundColor= "#F6EFEB";
        p.onclick=()=>p.remove();
+     
+    
        var input =document.getElementById("123");
        var textnode = document.createTextNode(input.value);
        p.appendChild(textnode);
